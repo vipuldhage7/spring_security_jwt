@@ -28,6 +28,7 @@ public class HomeController {
 	@RequestMapping({ "/hello" })
 	public String homePage()
 	{
+		System.out.println("Checking in the master branch");
 		return ("Hello brother");
 	}
 	
